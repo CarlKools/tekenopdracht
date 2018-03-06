@@ -1,10 +1,11 @@
 package drawing.domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Drawing {
+public class Drawing implements Serializable {
     private String name;
     private List<DrawingItem> items = new ArrayList<>();
     private IPaintable iPaintable;

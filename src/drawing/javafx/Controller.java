@@ -67,6 +67,15 @@ public class Controller implements Initializable {
     private void onSave(){
         DrawingRepository drawingRepository = new DrawingRepository(DrawingFactory.getContext(Context.DatabaseMediator));
         drawingRepository.save(drawing);
+
+        DrawingRepository drawingRepository1 = new DrawingRepository(DrawingFactory.getContext(Context.SerializationMediator));
+        drawingRepository1.save(drawing);
+    }
+
+
+    @FXML
+    private void onClose(){
+        System.exit(1);
     }
 
     @Override

@@ -29,19 +29,19 @@ public class DrawingTool extends javafx.application.Application {
         points.add(new Point(40, 40));
         points.add(new Point(30,30));
 
-        drawing = new Drawing("Test");
+        DrawingRepository drawingRepository = new DrawingRepository(DrawingFactory.getContext(Context.SerializationMediator));
+
+        drawing = drawingRepository.load("test");
         drawing.addDrawingItem(new Oval(Color.BLACK, 50, new Point(50,50), 50,50));
         drawing.addDrawingItem(new PaintedText(Color.BLUE, "hallo", "Comic Sans", new Point(50,50), 50, 50));
         drawing.addDrawingItem(new Polygon(Color.GREEN, points, 30));
         drawing.addDrawingItem(new Image(Color.RED, new File("C:\\Users\\Carl Kools\\Pictures\\wallpapers\\Computers_Microsoft_Windows_retro_042865_23"), new Point(70,70), 70,80));
 
+
+
         System.out.println(drawing.toString());
 
         List<DrawingItem> drawingItems = drawing.getItems();
-
-        DrawingRepository drawingRepository = new DrawingRepository(DrawingFactory.getContext(Context.DatabaseMediator));
-        drawingRepository.save(drawing);
-
 
         primaryStage.show();
 

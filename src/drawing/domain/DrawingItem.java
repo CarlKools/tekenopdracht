@@ -1,6 +1,8 @@
 package drawing.domain;
 
-public abstract class DrawingItem {
+import java.io.Serializable;
+
+public abstract class DrawingItem implements Serializable {
     private Color color;
     private DrawingItem previousState;
     private IPaintable iPaintable;
