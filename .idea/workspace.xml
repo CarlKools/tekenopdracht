@@ -2,22 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a24007c-8b24-4749-82b7-26a14c06f95b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PolygonFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IImageContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IOvalContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IPaintedTextContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IPolygonContext.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eff10721-aaa8-482e-b06f-0c11febd1983.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/eff10721-aaa8-482e-b06f-0c11febd1983.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Serialization/SerializationMediator.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Serialization/SerializationMediator.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/SerializationContext/DrawingSerializeContext.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/SerializationContext/DrawingSerializeContext.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/domain/Drawing.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/domain/Drawing.class" />
+      <change beforePath="$PROJECT_DIR$/drawing.ser" afterPath="$PROJECT_DIR$/drawing.ser" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Database/DatabaseMediator.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Database/DatabaseMediator.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/ImageFactory$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/ImageFactory.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/ImageFactory.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/OvalFactory$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/OvalFactory.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/OvalFactory.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/PaintedTextFactory$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/PaintedTextFactory.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Factory/PaintedTextFactory.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Repository/ImageRepository.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Repository/ImageRepository.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Repository/OvalRepository.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Repository/OvalRepository.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Repository/PaintedTextRepository.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Repository/PaintedTextRepository.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Repository/PolygonRepository.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/DataAccesLayer/Repository/PolygonRepository.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/domain/DrawingItem.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/domain/DrawingItem.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/javafx/Controller.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/javafx/Controller.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/javafx/DrawingTool.class" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/javafx/DrawingTool.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/javafx/DrawingTool.fxml" afterPath="$PROJECT_DIR$/out/production/Tekenopdracht/drawing/javafx/DrawingTool.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Serialization/SerializationMediator.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Serialization/SerializationMediator.java" />
-      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/DrawingSerializeContext.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/DrawingSerializeContext.java" />
-      <change beforePath="$PROJECT_DIR$/src/drawing/domain/Drawing.java" afterPath="$PROJECT_DIR$/src/drawing/domain/Drawing.java" />
+      <change beforePath="$PROJECT_DIR$/scripts/DDL.sql" afterPath="$PROJECT_DIR$/scripts/DDL.sql" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Database/DatabaseMediator.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Database/DatabaseMediator.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Enum/Context.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Enum/Context.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/ImageFactory.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/ImageFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/OvalFactory.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/OvalFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PaintedTextFactory.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PaintedTextFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/ImageRepository.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/ImageRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/OvalRepository.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/OvalRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PaintedTextRepository.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PaintedTextRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PolygonRepository.java" afterPath="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PolygonRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/domain/Color.java" afterPath="$PROJECT_DIR$/src/drawing/domain/Color.java" />
       <change beforePath="$PROJECT_DIR$/src/drawing/domain/DrawingItem.java" afterPath="$PROJECT_DIR$/src/drawing/domain/DrawingItem.java" />
-      <change beforePath="$PROJECT_DIR$/src/drawing/domain/Point.java" afterPath="$PROJECT_DIR$/src/drawing/domain/Point.java" />
       <change beforePath="$PROJECT_DIR$/src/drawing/javafx/Controller.java" afterPath="$PROJECT_DIR$/src/drawing/javafx/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/drawing/javafx/DrawingTool.fxml" afterPath="$PROJECT_DIR$/src/drawing/javafx/DrawingTool.fxml" />
       <change beforePath="$PROJECT_DIR$/src/drawing/javafx/DrawingTool.java" afterPath="$PROJECT_DIR$/src/drawing/javafx/DrawingTool.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,29 +66,151 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="drawingtool: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="drawingtool: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="drawing: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="drawingtool: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="paintedtext: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Drawing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drawing/domain/Drawing.java">
+      <file leaf-file-name="ImageMySQLContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="637">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
+                <element signature="e#2133#2134#0" expanded="true" />
+                <marker date="1520338793946" expanded="true" signature="655:696" ph="INSERT INTO drawingitem... " />
+                <marker date="1520338793946" expanded="true" signature="1207:1303" ph="INSERT INTO image... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawingTool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/drawing/javafx/DrawingTool.java">
+      <file leaf-file-name="PaintedTextMySQLContext.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
-              <folding />
+            <state relative-caret-position="191">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#2282#2283#0" expanded="true" />
+                <element signature="e#2309#2310#0" expanded="true" />
+                <marker date="1520339012146" expanded="true" signature="692:733" ph="INSERT INTO drawingitem... " />
+                <marker date="1520339012146" expanded="true" signature="1256:1369" ph="INSERT INTO paintedtext... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseMediator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Database/DatabaseMediator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PolygonMySQLContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="e#2163#2164#0" expanded="true" />
+                <element signature="e#2190#2191#0" expanded="true" />
+                <marker date="1520337833535" expanded="true" signature="647:688" ph="INSERT INTO drawingitem... " />
+                <marker date="1520337833535" expanded="true" signature="1203:1258" ph="INSERT INTO polygon... " />
+                <marker date="1520337833535" expanded="true" signature="2330:2380" ph="INSERT INTO vertex... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PolygonRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PolygonRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#493#494#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawingMySQLContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <marker date="1520332286332" expanded="true" signature="1108:1144" ph="INSERT INTO drawing... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaintedTextRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PaintedTextRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#600#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OvalRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/OvalRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#457#458#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,91 +218,28 @@
       <file leaf-file-name="DrawingRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/DrawingRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
+                <element signature="e#434#435#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Polygon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drawing/domain/Polygon.java">
+      <file leaf-file-name="OvalMySQLContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawingSerializeContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/DrawingSerializeContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="77" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#2031#2032#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
+                <marker date="1520337914150" expanded="true" signature="600:641" ph="INSERT INTO drawingitem... " />
+                <marker date="1520337914150" expanded="true" signature="1150:1243" ph="INSERT INTO oval... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drawing/domain/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Color.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drawing/domain/Color.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawingItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drawing/domain/DrawingItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drawing/javafx/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-              <folding>
-                <element signature="e#2879#2880#0" expanded="true" />
-                <element signature="e#2909#2910#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawingTool.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/drawing/javafx/DrawingTool.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -162,6 +250,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -177,10 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Color.java" />
-        <option value="$PROJECT_DIR$/src/DrawingItem.java" />
-        <option value="$PROJECT_DIR$/src/DrawingComparator.java" />
-        <option value="$PROJECT_DIR$/src/Point.java" />
         <option value="$PROJECT_DIR$/src/Polygon.java" />
         <option value="$PROJECT_DIR$/src/Image.java" />
         <option value="$PROJECT_DIR$/src/Oval.java" />
@@ -197,35 +282,41 @@
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/DrawingRepository.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalContext.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/ImageRepository.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/OvalRepository.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PaintedTextRepository.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PolygonRepository.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Enum/Context.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/DrawingSerialiseContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/ImageSerialiseContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/OvalSerialiseContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/PaintedTextSerializeContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/PolygonSerializeContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/DrawingFactory.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/ImageFactory.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/OvalFactory.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PaintedTextFactory.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Properties.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Database/DatabaseMediator.java" />
-        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Serialization/SerializationMediator.java" />
-        <option value="$PROJECT_DIR$/src/drawing/javafx/Controller.java" />
         <option value="$PROJECT_DIR$/src/drawing/javafx/DrawingTool.fxml" />
         <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/DrawingSerializeContext.java" />
         <option value="$PROJECT_DIR$/src/drawing/domain/Drawing.java" />
-        <option value="$PROJECT_DIR$/src/drawing/domain/DrawingItem.java" />
         <option value="$PROJECT_DIR$/src/drawing/domain/Point.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IOvalContext.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IPaintedTextContext.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IImageContext.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IPolygonContext.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/OvalRepository.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PaintedTextRepository.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PolygonRepository.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Database/DatabaseMediator.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/ImageRepository.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/ImageFactory.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PaintedTextFactory.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PolygonFactory.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/OvalFactory.java" />
+        <option value="$PROJECT_DIR$/src/drawing/javafx/Controller.java" />
         <option value="$PROJECT_DIR$/src/drawing/javafx/DrawingTool.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/Enum/Context.java" />
+        <option value="$PROJECT_DIR$/src/drawing/domain/Color.java" />
+        <option value="$PROJECT_DIR$/src/drawing/domain/DrawingItem.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.java" />
+        <option value="$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.java" />
       </list>
     </option>
   </component>
@@ -295,7 +386,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="drawing" type="462c0819:PsiDirectoryNode" />
               <item name="DataAccesLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="SerializationContext" type="462c0819:PsiDirectoryNode" />
+              <item name="MySQLContext" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tekenopdracht" type="b2602c69:ProjectViewProjectNode" />
@@ -433,12 +524,12 @@
       <workItem from="1519698176303" duration="6958000" />
       <workItem from="1519722930790" duration="7587000" />
       <workItem from="1519735832610" duration="101000" />
-      <workItem from="1520163410908" duration="31702000" />
+      <workItem from="1520163410908" duration="55893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105226000" />
+    <option name="totallyTimeSpent" value="129417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -483,19 +574,37 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/DrawingSerializeContext.java</url>
           <line>11</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -504,359 +613,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/javafx/scene/canvas/GraphicsContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10458">
-          <caret line="498" column="0" lean-forward="false" selection-start-line="498" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/beans/property/BooleanPropertyBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/javafx/stage/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28497">
-          <caret line="1575" column="31" lean-forward="false" selection-start-line="1575" selection-start-column="31" selection-end-line="1575" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/javafx/scene/canvas/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/javafx/scene/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="703" column="0" lean-forward="false" selection-start-line="703" selection-start-column="0" selection-end-line="703" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/javafx/stage/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="109" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/IPaintable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/DrawingComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/javafx/JavaFXPaintable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Oval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/PaintedText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/PersistencyMediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/ImageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-            <element signature="e#383#384#0" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#600#601#0" expanded="false" />
-            <element signature="e#650#651#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/OvalRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#319#320#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#428#429#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#598#599#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PaintedTextRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#542#543#0" expanded="false" />
-            <element signature="e#586#587#0" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#761#762#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PolygonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#543#544#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/ImageSerializeContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#320#321#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#405#406#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/OvalSerializeContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#319#320#0" expanded="false" />
-            <element signature="e#346#347#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#496#497#0" expanded="false" />
-            <element signature="e#524#525#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/PaintedTextSerializeContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#353#354#0" expanded="false" />
-            <element signature="e#411#412#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#503#504#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/PolygonSerializeContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#349#350#0" expanded="false" />
-            <element signature="e#407#408#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Enum/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/ImageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/OvalFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#295#296#0" expanded="false" />
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PaintedTextFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#358#359#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#471#472#0" expanded="false" />
-            <element signature="e#535#536#0" expanded="false" />
-            <element signature="e#563#564#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eff10721-aaa8-482e-b06f-0c11febd1983/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6da41add/eff10721-aaa8-482e-b06f-0c11febd1983/drawingtool.drawing">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
-            <element signature="e#320#321#0" expanded="false" />
-            <element signature="e#378#379#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,18 +625,6 @@
         <state relative-caret-position="105">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#250#251#0" expanded="false" />
-            <element signature="e#286#287#0" expanded="false" />
-            <element signature="e#355#356#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,57 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Database/DatabaseMediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#392#393#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-            <element signature="e#1106#1107#0" expanded="false" />
-            <element signature="e#1138#1139#0" expanded="false" />
-            <element signature="e#1191#1192#0" expanded="false" />
-            <element signature="e#1233#1234#0" expanded="false" />
-            <element signature="e#1274#1275#0" expanded="false" />
-            <element signature="e#1307#1308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/DrawingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#1073#1074#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <marker date="1520293727817" expanded="true" signature="534:570" ph="INSERT INTO drawing... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Serialization/SerializationMediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/drawing/javafx/DrawingTool.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -998,43 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/DrawingItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/javafx/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="e#2879#2880#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Polygon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Drawing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/drawing/domain/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1043,18 +703,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Color.java">
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IOvalContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="147">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IPaintedTextContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IImageContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/IContext/IPolygonContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Oval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Polygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1323">
+          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/ImageSerializeContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/PersistencyMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/ImageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PaintedTextFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/OvalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#394#395#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Serialization/SerializationMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/SerializationContext/DrawingSerializeContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1521#1522#0" expanded="true" />
@@ -1063,21 +827,323 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/DrawingRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/drawing/javafx/DrawingTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="2304" column="0" lean-forward="false" selection-start-line="2304" selection-start-column="0" selection-end-line="2304" selection-end-column="0" />
           <folding>
-            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#9927#9928#0" expanded="true" />
+            <element signature="e#10007#10008#0" expanded="true" />
+            <marker date="1520291260217" expanded="true" signature="75855:75884" ph="SELECT @@ses... " />
+            <marker date="1520291260217" expanded="true" signature="86829:86856" ph="SELECT @@ses... " />
+            <marker date="1520291260217" expanded="true" signature="89499:89528" ph="select @@ses... " />
+            <marker date="1520291260217" expanded="true" signature="97401:97422" ph="/* missingVa... " />
+            <marker date="1520291260217" expanded="true" signature="167032:167054" ph="SELECT CONNE... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/javafx/DrawingTool.java">
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/PolygonFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Enum/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#250#251#0" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-6.0.6.jar!/com/mysql/cj/core/conf/url/ConnectionUrl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/domain/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/domain/DrawingItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/PreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="2056" column="0" lean-forward="false" selection-start-line="2056" selection-start-column="0" selection-end-line="2056" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Factory/DrawingFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/javafx/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1670" column="0" lean-forward="false" selection-start-line="1670" selection-start-column="0" selection-end-line="1670" selection-end-column="0" />
+          <folding>
+            <element signature="e#67760#67761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="8863" column="0" lean-forward="false" selection-start-line="8863" selection-start-column="0" selection-end-line="8863" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.base/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3250">
+          <caret line="3881" column="13" lean-forward="true" selection-start-line="3881" selection-start-column="13" selection-end-line="3881" selection-end-column="13" />
+          <folding>
+            <element signature="e#70559#70560#0" expanded="true" />
+            <element signature="e#70605#70606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/ImageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/DrawingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/ImageMySQLContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2133#2134#0" expanded="true" />
+            <marker date="1520338793946" expanded="true" signature="655:696" ph="INSERT INTO drawingitem... " />
+            <marker date="1520338793946" expanded="true" signature="1207:1303" ph="INSERT INTO image... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PolygonMySQLContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#2163#2164#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <marker date="1520337833535" expanded="true" signature="647:688" ph="INSERT INTO drawingitem... " />
+            <marker date="1520337833535" expanded="true" signature="1203:1258" ph="INSERT INTO polygon... " />
+            <marker date="1520337833535" expanded="true" signature="2330:2380" ph="INSERT INTO vertex... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PolygonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/OvalRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/DrawingMySQLContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1520332286332" expanded="true" signature="1108:1144" ph="INSERT INTO drawing... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Repository/PaintedTextRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/Database/DatabaseMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/OvalMySQLContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="77" />
+          <folding>
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <marker date="1520337914150" expanded="true" signature="600:641" ph="INSERT INTO drawingitem... " />
+            <marker date="1520337914150" expanded="true" signature="1150:1243" ph="INSERT INTO oval... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drawing/DataAccesLayer/MySQLContext/PaintedTextMySQLContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#2282#2283#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <marker date="1520339012146" expanded="true" signature="692:733" ph="INSERT INTO drawingitem... " />
+            <marker date="1520339012146" expanded="true" signature="1256:1369" ph="INSERT INTO paintedtext... " />
+          </folding>
         </state>
       </provider>
     </entry>

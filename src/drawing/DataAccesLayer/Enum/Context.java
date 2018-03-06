@@ -1,6 +1,6 @@
 package drawing.DataAccesLayer.Enum;
 
-public enum  Context {
+public enum Context {
     SerializationMediator,
     DatabaseMediator
 }

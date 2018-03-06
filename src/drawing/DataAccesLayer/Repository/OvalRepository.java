@@ -1,25 +1,23 @@
 package drawing.DataAccesLayer.Repository;
 
+import drawing.DataAccesLayer.IContext.IOvalContext;
 import drawing.DataAccesLayer.PersistencyMediator;
 import drawing.DataAccesLayer.Properties;
 import drawing.domain.Drawing;
+import drawing.domain.Oval;
 
 public class OvalRepository {
-    private PersistencyMediator persistencyMediator;
+    private IOvalContext iOvalContext;
 
-    public OvalRepository(PersistencyMediator persistencyMediator){
-        this.persistencyMediator = persistencyMediator;
+    public OvalRepository(IOvalContext iOvalContext){
+        this.iOvalContext = iOvalContext;
     }
 
-    public Drawing load(String nameDrawing) {
-        return this.persistencyMediator.load(nameDrawing);
+    public void Insert(Oval oval) {
+        this.iOvalContext.Insert(oval);
     }
 
-    public boolean save(Drawing drawing) {
-        return this.persistencyMediator.save(drawing);
-    }
-
-    public boolean init(Properties properties) {
-        return this.persistencyMediator.init(properties);
+    public Oval getByDrawing(Drawing drawing) {
+        return this.iOvalContext.getByDrawing(drawing);
     }
 }

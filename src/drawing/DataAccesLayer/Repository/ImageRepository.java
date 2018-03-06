@@ -1,25 +1,24 @@
 package drawing.DataAccesLayer.Repository;
 
+import drawing.DataAccesLayer.IContext.IImageContext;
 import drawing.DataAccesLayer.PersistencyMediator;
 import drawing.DataAccesLayer.Properties;
 import drawing.domain.Drawing;
+import drawing.domain.Image;
 
 public class ImageRepository {
-    private PersistencyMediator persistencyMediator;
+    private IImageContext iImageContext;
 
-    public ImageRepository(PersistencyMediator persistencyMediator){
-        this.persistencyMediator = persistencyMediator;
+    public ImageRepository(IImageContext iImageContext){
+        this.iImageContext = iImageContext;
     }
 
-    public Drawing load(String nameDrawing) {
-        return this.persistencyMediator.load(nameDrawing);
+    public void Insert(Image image) {
+        this.iImageContext.Insert(image);
     }
 
-    public boolean save(Drawing drawing) {
-        return this.persistencyMediator.save(drawing);
+    public Image getByDrawing(Drawing drawing) {
+        return this.iImageContext.getByDrawing(drawing);
     }
 
-    public boolean init(Properties properties) {
-        return this.persistencyMediator.init(properties);
-    }
 }

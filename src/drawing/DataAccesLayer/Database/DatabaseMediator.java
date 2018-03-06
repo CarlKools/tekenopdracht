@@ -6,7 +6,7 @@ import drawing.domain.Drawing;
 
 import java.sql.*;
 
-public abstract class DatabaseMediator implements PersistencyMediator {
+public class DatabaseMediator {
     private Properties properties;
     private Connection connection;
     private ResultSet resultSet;
@@ -25,16 +25,6 @@ public abstract class DatabaseMediator implements PersistencyMediator {
 
     }
 
-
-    @Override
-    public abstract Drawing load(String nameDrawing) ;
-
-    @Override
-    public abstract boolean save(Drawing drawing);
-
-    @Override
-    public abstract boolean init(Properties properties);
-
     public ResultSet getResultSet() {
         return resultSet;
     }
@@ -46,4 +36,5 @@ public abstract class DatabaseMediator implements PersistencyMediator {
     public Connection getConnection() {
         return connection;
     }
+
 }

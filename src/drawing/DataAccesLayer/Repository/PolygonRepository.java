@@ -1,25 +1,23 @@
 package drawing.DataAccesLayer.Repository;
 
+import drawing.DataAccesLayer.IContext.IPolygonContext;
 import drawing.DataAccesLayer.PersistencyMediator;
 import drawing.DataAccesLayer.Properties;
 import drawing.domain.Drawing;
+import drawing.domain.Polygon;
 
 public class PolygonRepository {
-    private PersistencyMediator persistencyMediator;
+    private IPolygonContext iPolygonContext;
 
-    public PolygonRepository(PersistencyMediator persistencyMediator){
-        this.persistencyMediator = persistencyMediator;
+    public PolygonRepository(IPolygonContext iPolygonContext){
+        this.iPolygonContext = iPolygonContext;
     }
 
-    public Drawing load(String nameDrawing) {
-        return this.persistencyMediator.load(nameDrawing);
+    public void Insert(Polygon polygon) {
+        this.iPolygonContext.Insert(polygon);
     }
 
-    public boolean save(Drawing drawing) {
-        return this.persistencyMediator.save(drawing);
-    }
-
-    public boolean init(Properties properties) {
-        return this.persistencyMediator.init(properties);
+    public Polygon getByDrawing(Drawing drawing) {
+        return this.iPolygonContext.getByDrawing(drawing);
     }
 }

@@ -1,26 +1,23 @@
 package drawing.DataAccesLayer.Repository;
 
+import drawing.DataAccesLayer.IContext.IPaintedTextContext;
 import drawing.DataAccesLayer.PersistencyMediator;
 import drawing.DataAccesLayer.Properties;
 import drawing.domain.Drawing;
 import drawing.domain.PaintedText;
 
-public class PaintedTextRepository {
-    private PersistencyMediator persistencyMediator;
+public class PaintedTextRepository{
+    private IPaintedTextContext iPaintedTextContext;
 
-    public PaintedTextRepository(PersistencyMediator persistencyMediator){
-        this.persistencyMediator = persistencyMediator;
+    public PaintedTextRepository(IPaintedTextContext iPaintedTextContext){
+        this.iPaintedTextContext = iPaintedTextContext;
     }
 
-    public Drawing load(String nameDrawing) {
-        return this.persistencyMediator.load(nameDrawing);
+    public void Insert(PaintedText paintedText) {
+        this.iPaintedTextContext.Insert(paintedText);
     }
 
-    public boolean save(Drawing drawing) {
-        return this.persistencyMediator.save(drawing);
-    }
-
-    public boolean init(Properties properties) {
-        return this.persistencyMediator.init(properties);
+    public PaintedText getByDrawing(Drawing drawing) {
+        return this.iPaintedTextContext.getByDrawing(drawing);
     }
 }
