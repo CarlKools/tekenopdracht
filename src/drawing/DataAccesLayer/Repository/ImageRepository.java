@@ -6,6 +6,8 @@ import drawing.DataAccesLayer.Properties;
 import drawing.domain.Drawing;
 import drawing.domain.Image;
 
+import java.util.ArrayList;
+
 public class ImageRepository {
     private IImageContext iImageContext;
 
@@ -17,7 +19,7 @@ public class ImageRepository {
         this.iImageContext.Insert(image);
     }
 
-    public Image getByDrawing(Drawing drawing) {
+    public ArrayList<Image> getByDrawing(Drawing drawing) {
         return this.iImageContext.getByDrawing(drawing);
     }
 

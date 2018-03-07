@@ -113,14 +113,18 @@ public class Polygon extends DrawingItem {
         int counter = 0;
         StringBuilder sb = new StringBuilder();
         sb.append("POLYGON \n");
-        sb.append("Anchor: " + getAnchor().toString() + " Width: " + getWidth() +
-                " Height: " + getHeight() + " Weight: " + this.weight + " Color: " + super.getColor() + "\n");
 
-        for(Point point : this.vertices){
-            counter++;
-            sb.append("point " + counter + ": x= " + point.getX() + ", Y= " + point.getY() + "\n");
+        if(this.vertices.size() > 0){
+            sb.append("Anchor: " + getAnchor().toString() + " Width: " + getWidth() +
+                    " Height: " + getHeight() + " Weight: " + this.weight + " Color: " + super.getColor() + "\n");
+
+            for(Point point : this.vertices){
+                counter++;
+                sb.append("point " + counter + ": x= " + point.getX() + ", Y= " + point.getY() + "\n");
+            }
         }
 
         return sb.toString();
     }
+
 }

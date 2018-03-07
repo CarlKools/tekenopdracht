@@ -6,6 +6,8 @@ import drawing.DataAccesLayer.Properties;
 import drawing.domain.Drawing;
 import drawing.domain.Oval;
 
+import java.util.ArrayList;
+
 public class OvalRepository {
     private IOvalContext iOvalContext;
 
@@ -17,7 +19,7 @@ public class OvalRepository {
         this.iOvalContext.Insert(oval);
     }
 
-    public Oval getByDrawing(Drawing drawing) {
+    public ArrayList<Oval> getByDrawing(Drawing drawing) {
         return this.iOvalContext.getByDrawing(drawing);
     }
 }

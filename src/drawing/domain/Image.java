@@ -44,7 +44,7 @@ public class Image extends DrawingItem {
         StringBuilder sb = new StringBuilder();
         sb.append("IMAGE \n");
         sb.append("Filepath: " + this.file + " Anchor: " + this.anchor.toString() +
-                " Width: " + this.width + " Height: " + this.height + "\n");
+                " Width: " + this.width + " Height: " + this.height + this.getColor() + "\n");
 
         return sb.toString();
     }

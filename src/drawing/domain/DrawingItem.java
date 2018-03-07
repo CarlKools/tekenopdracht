@@ -3,7 +3,6 @@ package drawing.domain;
 import java.io.Serializable;
 
 public abstract class DrawingItem implements Serializable {
-    private int id;
     private Color color;
     private DrawingItem previousState;
     private IPaintable iPaintable;
@@ -45,10 +44,4 @@ public abstract class DrawingItem implements Serializable {
         iPaintable.paint(image);
     }
 
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
 }

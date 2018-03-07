@@ -75,6 +75,9 @@ public class Controller implements Initializable {
         drawing.addDrawingItem(new Image(Color.RED, new File("C:\\Users\\Carl Kools\\Pictures\\wallpapers\\Computers_Microsoft_Windows_retro_042865_23"), new Point(70,70), 70,80));
         drawingRepository.save(drawing);
 
+        Drawing drawingLoad = drawingRepository.load("drawing");
+        System.out.println(drawingLoad.toString());
+
         DrawingRepository drawingRepository1 = new DrawingRepository(DrawingFactory.getContext(Context.SerializationMediator));
         drawingRepository1.save(drawing);
     }

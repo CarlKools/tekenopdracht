@@ -25,11 +25,10 @@ public class DrawingTool extends javafx.application.Application {
 
         primaryStage.setScene(new Scene(root));
 
-
-
         DrawingRepository drawingRepository = new DrawingRepository(DrawingFactory.getContext(Context.SerializationMediator));
 
-
+        drawing = drawingRepository.load("");
+        System.out.println(drawing.toString());
 
         primaryStage.show();
 

@@ -13,6 +13,15 @@ public enum Color {
         this.color = color;
     }
 
+    public static Color fromValue(int value){
+        for(Color color: Color.values()){
+            if(color.getColor() == value){
+                return color;
+            }
+        }
+        return null;
+    }
+
     public int getColor() {
         return color;
     }

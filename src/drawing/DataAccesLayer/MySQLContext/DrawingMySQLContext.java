@@ -15,11 +15,58 @@ import drawing.DataAccesLayer.Repository.PolygonRepository;
 import drawing.domain.*;
 
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class DrawingMySQLContext extends DatabaseMediator implements PersistencyMediator {
     @Override
     public Drawing load(String nameDrawing) {
+        try {
+            if(super.initConnection()){
+
+                String query = "SELECT drawing.name FROM drawing WHERE drawing.name = ?";
+
+                PreparedStatement preparedStatement = super.getConnection().prepareStatement(query);
+                preparedStatement.setString(1, nameDrawing);
+
+                ResultSet resultSet = preparedStatement.executeQuery();
+
+                Drawing drawing = null;
+                while(resultSet.next()){
+                    drawing = new Drawing(resultSet.getString("name"));
+                }
+
+                ImageRepository imageRepository = new ImageRepository(ImageFactory.getContext());
+                OvalRepository ovalRepository = new OvalRepository(OvalFactory.getContext());
+                PaintedTextRepository paintedTextRepository = new PaintedTextRepository(PaintedTextFactory.getContext());
+                PolygonRepository polygonRepository = new PolygonRepository(PolygonFactory.getContext());
+
+                ArrayList<Image> images = imageRepository.getByDrawing(drawing);
+                ArrayList<Oval> ovals = ovalRepository.getByDrawing(drawing);
+                ArrayList<PaintedText> paintedTexts = paintedTextRepository.getByDrawing(drawing);
+                ArrayList<Polygon> polygons = polygonRepository.getByDrawing(drawing);
+
+                for(Image image: images){
+                    drawing.addDrawingItem(image
+                    );
+                }
+                for(Oval oval: ovals){
+                    drawing.addDrawingItem(oval);
+                }
+                for(PaintedText paintedText: paintedTexts){
+                    drawing.addDrawingItem(paintedText);
+                }
+                for(Polygon polygon: polygons){
+                    drawing.addDrawingItem(polygon);
+                }
+
+                return drawing;
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         return null;
     }
 

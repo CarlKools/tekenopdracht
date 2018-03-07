@@ -6,6 +6,8 @@ import drawing.DataAccesLayer.Properties;
 import drawing.domain.Drawing;
 import drawing.domain.Polygon;
 
+import java.util.ArrayList;
+
 public class PolygonRepository {
     private IPolygonContext iPolygonContext;
 
@@ -17,7 +19,7 @@ public class PolygonRepository {
         this.iPolygonContext.Insert(polygon);
     }
 
-    public Polygon getByDrawing(Drawing drawing) {
+    public ArrayList<Polygon> getByDrawing(Drawing drawing) {
         return this.iPolygonContext.getByDrawing(drawing);
     }
 }

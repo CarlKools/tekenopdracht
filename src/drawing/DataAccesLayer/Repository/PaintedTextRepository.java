@@ -6,6 +6,8 @@ import drawing.DataAccesLayer.Properties;
 import drawing.domain.Drawing;
 import drawing.domain.PaintedText;
 
+import java.util.ArrayList;
+
 public class PaintedTextRepository{
     private IPaintedTextContext iPaintedTextContext;
 
@@ -17,7 +19,7 @@ public class PaintedTextRepository{
         this.iPaintedTextContext.Insert(paintedText);
     }
 
-    public PaintedText getByDrawing(Drawing drawing) {
+    public ArrayList<PaintedText> getByDrawing(Drawing drawing) {
         return this.iPaintedTextContext.getByDrawing(drawing);
     }
 }
