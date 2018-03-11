@@ -1,23 +1,21 @@
 package drawing.DataAccesLayer.Database;
-
-import drawing.DataAccesLayer.PersistencyMediator;
-import drawing.DataAccesLayer.Properties;
-import drawing.domain.Drawing;
-
 import java.sql.*;
 
 public class DatabaseMediator {
-    private Properties properties;
+    private java.util.Properties properties;
     private Connection connection;
     private ResultSet resultSet;
 
     public DatabaseMediator(){
-        this.properties = new Properties();
+        this.properties = new java.util.Properties();
+        this.properties.setProperty("user", "DrawingTool");
+        this.properties.setProperty("password", "DrawingTool");
+        this.properties.setProperty("useSSL", "false");
     }
 
     public boolean initConnection() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/drawingtool?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", this.properties.getUsername(), this.properties.getPassword());
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/drawingtool?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", this.properties);
             return true;
         } catch (SQLException sqle) {
             return false;
