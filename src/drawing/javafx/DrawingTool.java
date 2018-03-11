@@ -25,10 +25,6 @@ public class DrawingTool extends javafx.application.Application {
 
         primaryStage.setScene(new Scene(root));
 
-        DrawingRepository drawingRepository = new DrawingRepository(DrawingFactory.getContext(Context.SerializationMediator));
-
-        drawing = drawingRepository.load("");
-        System.out.println(drawing.toString());
 
         primaryStage.show();
 
@@ -39,20 +35,5 @@ public class DrawingTool extends javafx.application.Application {
 
     }
 
-    public void Draw(){
-        for(DrawingItem drawingItem : drawing.getItems()){
-            if(drawingItem instanceof Oval){
-                drawingItem.paint((Oval)drawingItem);
-            }
-            if(drawingItem instanceof PaintedText){
-                drawingItem.paint((PaintedText)drawingItem);
-            }
-            if(drawingItem instanceof Polygon){
-                drawingItem.paint((Polygon)drawingItem);
-            }
-            if(drawingItem instanceof Image){
-                drawingItem.paint((Image)drawingItem);
-            }
-        }
-    }
+
 }

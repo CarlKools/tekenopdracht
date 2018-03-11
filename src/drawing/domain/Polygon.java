@@ -1,9 +1,10 @@
 package drawing.domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Polygon extends DrawingItem {
+public class Polygon extends DrawingItem implements Serializable {
     //Fields
     private ArrayList<Point> vertices;
     private double weight;
@@ -105,6 +106,11 @@ public class Polygon extends DrawingItem {
         double height = endY - startY;
 
         return height;
+    }
+
+    @Override
+    public void paint() {
+        super.getiPaintable().paint(this);
     }
 
     @Override

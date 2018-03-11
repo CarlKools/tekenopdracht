@@ -3,10 +3,12 @@ import drawing.DataAccesLayer.Enum.Context;
 import drawing.DataAccesLayer.Factory.DrawingFactory;
 import drawing.DataAccesLayer.Repository.DrawingRepository;
 import drawing.domain.*;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.canvas.Canvas;
+import javafx.scene.control.ComboBox;
 import javafx.scene.image.ImageView;
 
 import java.io.File;
@@ -20,6 +22,8 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
     @FXML
     private Canvas canvas;
+    @FXML
+    private ComboBox comboBoxDrawings;
     private JavaFXPaintable javaFXPaintable;
     private Drawing drawing = new Drawing("drawing");
 
@@ -80,6 +84,21 @@ public class Controller implements Initializable {
 
         DrawingRepository drawingRepository1 = new DrawingRepository(DrawingFactory.getContext(Context.SerializationMediator));
         drawingRepository1.save(drawing);
+
+        setItems(drawing.getObservableList());
+
+        //test
+        GraphicsContext graphicsContext = this.canvas.getGraphicsContext2D();
+        this.javaFXPaintable = new JavaFXPaintable(graphicsContext);
+        this.drawing.paintUsing(this.javaFXPaintable);
+
+        this.drawing.paint();
+
+    }
+
+    private void setItems(ObservableList List){
+        this.comboBoxDrawings.setItems(List);
+
     }
 
 

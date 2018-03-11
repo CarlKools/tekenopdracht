@@ -1,6 +1,8 @@
 package drawing.domain;
 
-public class PaintedText extends DrawingItem {
+import java.io.Serializable;
+
+public class PaintedText extends DrawingItem implements Serializable {
     private String content;
     private String fontName;
     private Point anchor;
@@ -45,6 +47,11 @@ public class PaintedText extends DrawingItem {
     @Override
     public double getHeight() {
         return this.height;
+    }
+
+    @Override
+    public void paint() {
+        super.getiPaintable().paint(this);
     }
 
     @Override

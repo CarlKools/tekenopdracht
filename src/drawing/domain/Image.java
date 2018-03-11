@@ -1,8 +1,9 @@
 package drawing.domain;
 
 import java.io.File;
+import java.io.Serializable;
 
-public class Image extends DrawingItem {
+public class Image extends DrawingItem implements Serializable {
     private File file;
     private Point anchor;
     private double width;
@@ -38,6 +39,13 @@ public class Image extends DrawingItem {
     public double getHeight() {
         return this.height;
     }
+
+
+    @Override
+    public void paint() {
+        super.getiPaintable().paint(this);
+    }
+
 
     @Override
     public String toString() {

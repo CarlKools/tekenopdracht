@@ -1,6 +1,8 @@
 package drawing.domain;
 
-public class Oval extends DrawingItem {
+import java.io.Serializable;
+
+public class Oval extends DrawingItem implements Serializable {
     private double weight;
     private Point anchor;
     private double width;
@@ -35,6 +37,11 @@ public class Oval extends DrawingItem {
     @Override
     public double getHeight() {
         return this.height;
+    }
+
+    @Override
+    public void paint() {
+        super.getiPaintable().paint(this);
     }
 
     @Override

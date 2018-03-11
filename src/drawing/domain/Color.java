@@ -1,6 +1,8 @@
 package drawing.domain;
 
-public enum Color {
+import java.io.Serializable;
+
+public enum Color implements Serializable {
     BLACK(0),
     WHITE(1),
     RED(2),

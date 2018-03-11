@@ -14,6 +14,10 @@ public abstract class DrawingItem implements Serializable {
         this.color = color;
     }
 
+    public IPaintable getiPaintable(){
+        return this.iPaintable;
+    }
+
     public DrawingItem(Color color){
         this.color = color;
     }
@@ -24,10 +28,12 @@ public abstract class DrawingItem implements Serializable {
 
     public abstract double getHeight();
 
-    public void paintUsing(IPaintable iPaintable) {
+    public void paintUsing(IPaintable iPaintable){
         this.iPaintable = iPaintable;
-
     }
+
+    public abstract void paint();
+
     public void paint(Oval oval){
         iPaintable.paint(oval);
     }

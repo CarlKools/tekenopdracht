@@ -1,26 +1,20 @@
 package drawing.domain;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Drawing implements Serializable {
+public class Drawing extends DrawingItem implements Serializable {
+    //Fields
     private String name;
     private List<DrawingItem> items = new ArrayList<>();
     private IPaintable iPaintable;
 
-    public List<DrawingItem> getItems() {
 
-        Collections.sort(items, new DrawingComparator());
-
-        return new ArrayList<DrawingItem>(Collections.unmodifiableCollection(items));
-    }
-
-    public Drawing(String name) {
-        this.name = name;
-    }
-
+    //Properties
     public String getName() {
         return name;
     }
@@ -29,6 +23,55 @@ public class Drawing implements Serializable {
         this.name = name;
     }
 
+    @Override
+    public Point getAnchor() {
+        List<DrawingItem> drawingItems = getItems();
+
+        return drawingItems.get(0).getAnchor();
+    }
+
+    @Override
+    public double getWidth() {
+        double width = 0;
+
+        for(DrawingItem item: items){
+            width = width + item.getWidth();
+        }
+        return width;
+    }
+
+    @Override
+    public double getHeight() {
+        double height = 0;
+
+        for(DrawingItem item: items){
+            height = height + item.getHeight();
+        }
+
+        return height;
+    }
+
+    public List<DrawingItem> getItems() {
+
+        Collections.sort(items, new DrawingComparator());
+
+        return new ArrayList<DrawingItem>(Collections.unmodifiableCollection(items));
+    }
+
+    public ObservableList<DrawingItem> getObservableList() {
+        ObservableList<DrawingItem> observableList = FXCollections.observableList(items);
+
+        return FXCollections.unmodifiableObservableList(observableList);
+    }
+
+
+    //constructor
+    public Drawing(String name) {
+        super(Color.WHITE);
+        this.name = name;
+    }
+
+    //Methodes
     public void addDrawingItem(DrawingItem item){
         items.add(item);
     }
@@ -64,10 +107,16 @@ public class Drawing implements Serializable {
         return null;
     }
 
-
     public void paintUsing(IPaintable iPaintable) {
         this.iPaintable = iPaintable;
+    }
 
+    @Override
+    public void paint() {
+        for (DrawingItem drawingItem: items){
+            drawingItem.paintUsing(this.iPaintable);
+            drawingItem.paint();
+        }
     }
 
     public void paint(Oval oval){
@@ -85,7 +134,6 @@ public class Drawing implements Serializable {
     public void paint(Image image){
         iPaintable.paint(image);
     }
-
 
     @Override
     public String toString() {
