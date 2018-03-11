@@ -25,7 +25,7 @@ public class Drawing extends DrawingItem implements Serializable {
 
     @Override
     public Point getAnchor() {
-        List<DrawingItem> drawingItems = getItems();
+        List<DrawingItem> drawingItems = items;
 
         return drawingItems.get(0).getAnchor();
     }
@@ -35,7 +35,9 @@ public class Drawing extends DrawingItem implements Serializable {
         double width = 0;
 
         for(DrawingItem item: items){
-            width = width + item.getWidth();
+            if(!item.equals(this)) {
+                width = width + item.getWidth();
+            }
         }
         return width;
     }
@@ -45,7 +47,9 @@ public class Drawing extends DrawingItem implements Serializable {
         double height = 0;
 
         for(DrawingItem item: items){
-            height = height + item.getHeight();
+            if(!item.equals(this)) {
+                height = height + item.getHeight();
+            }
         }
 
         return height;
@@ -114,8 +118,11 @@ public class Drawing extends DrawingItem implements Serializable {
     @Override
     public void paint() {
         for (DrawingItem drawingItem: items){
-            drawingItem.paintUsing(this.iPaintable);
-            drawingItem.paint();
+            if(!drawingItem.equals(this)){
+                drawingItem.paintUsing(this.iPaintable);
+                drawingItem.paint();
+            }
+
         }
     }
 
@@ -142,9 +149,9 @@ public class Drawing extends DrawingItem implements Serializable {
 
         StringBuilder sb = new StringBuilder();
 
-        for(DrawingItem item : this.getItems() ){
-            sb.append(item.toString() + "\n");
-        }
+        sb.append("DRAWING: " + this.name +  "\n");
+        sb.append("Anchor: "+ this.getAnchor().toString() + "Width: " + this.getWidth() +
+        " Height: " + this.getHeight() + " Color: " + this.getColor());
 
         return sb.toString();
     }
