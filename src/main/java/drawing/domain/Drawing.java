@@ -33,24 +33,39 @@ public class Drawing extends DrawingItem implements Serializable {
     @Override
     public double getWidth() {
         double width = 0;
+        double bPoint = getAnchor().getX();
+        double ePoint = bPoint + getItems().get(0).getWidth();
+
 
         for(DrawingItem item: items){
-            if(!item.equals(this)) {
-                width = width + item.getWidth();
+            if(!item.equals(this)){
+                if((item.getAnchor().getX() + item.getWidth()) > ePoint){
+                ePoint = (item.getAnchor().getX() + item.getWidth());
+                }
             }
+
         }
+        width = ePoint - bPoint;
+
         return width;
     }
 
     @Override
     public double getHeight() {
         double height = 0;
+        double bPoint = getAnchor().getY();
+        double ePoint = bPoint + getItems().get(0).getHeight();
+
 
         for(DrawingItem item: items){
-            if(!item.equals(this)) {
-                height = height + item.getHeight();
+            if(!item.equals(this)){
+                if((item.getAnchor().getY() + item.getHeight()) > ePoint){
+                    ePoint = (item.getAnchor().getY() + item.getHeight());
+                }
             }
+
         }
+        height = ePoint - bPoint;
 
         return height;
     }
@@ -59,7 +74,7 @@ public class Drawing extends DrawingItem implements Serializable {
 
         Collections.sort(items, new DrawingComparator());
 
-        return new ArrayList<DrawingItem>(Collections.unmodifiableCollection(items));
+        return new ArrayList<>(Collections.unmodifiableCollection(items));
     }
 
     public ObservableList<DrawingItem> getObservableList() {
@@ -117,13 +132,25 @@ public class Drawing extends DrawingItem implements Serializable {
 
     @Override
     public void paint() {
-        for (DrawingItem drawingItem: items){
-            if(!drawingItem.equals(this)){
-                drawingItem.paintUsing(this.iPaintable);
-                drawingItem.paint();
-            }
+        paintAllItems(items);
+    }
 
+    private void paintAllItems(List<DrawingItem> items){
+        try{
+        for(DrawingItem drawingItem: items){
+            if(drawingItem instanceof Drawing){
+                paintAllItems(((Drawing) drawingItem).getItems());
+            }else {
+                drawingItem.paintUsing(iPaintable);
+                drawingItem.paint();
+                System.out.println(drawingItem.toString());
+            }
         }
+        }catch (Exception e){
+            System.out.println(e);
+        }
+
+
     }
 
     public void paint(Oval oval){

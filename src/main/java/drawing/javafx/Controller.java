@@ -9,12 +9,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.ComboBox;
-import javafx.scene.image.ImageView;
-
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -32,7 +27,9 @@ public class Controller implements Initializable {
         GraphicsContext graphicsContext = this.canvas.getGraphicsContext2D();
         this.javaFXPaintable = new JavaFXPaintable(graphicsContext);
         this.drawing.paintUsing(this.javaFXPaintable);
-        this.drawing.paint(new Oval(Color.BLACK, 50, new Point(50,50), 50,50));
+        Oval oval = new Oval(Color.BLACK, 50, new Point(50,50), 50,50);
+        drawing.addDrawingItem(oval);
+        this.drawing.paint(oval);
 }
 
     @FXML
@@ -40,7 +37,9 @@ public class Controller implements Initializable {
         GraphicsContext graphicsContext = this.canvas.getGraphicsContext2D();
         this.javaFXPaintable = new JavaFXPaintable(graphicsContext);
         this.drawing.paintUsing(this.javaFXPaintable);
-        this.drawing.paint(new PaintedText(Color.BLUE, "hallo", "Comic Sans", new Point(50,50), 50, 50));
+        PaintedText paintedText = new PaintedText(Color.BLUE, "hallo", "Comic Sans", new Point(50,50), 50, 50);
+        drawing.addDrawingItem(paintedText);
+        this.drawing.paint(paintedText);
     }
 
     @FXML
@@ -55,7 +54,9 @@ public class Controller implements Initializable {
         GraphicsContext graphicsContext = this.canvas.getGraphicsContext2D();
         this.javaFXPaintable = new JavaFXPaintable(graphicsContext);
         this.drawing.paintUsing(this.javaFXPaintable);
-        this.drawing.paint(new Polygon(Color.GREEN, points, 30));
+        Polygon polygon = new Polygon(Color.GREEN, points, 30);
+        drawing.addDrawingItem(polygon);
+        this.drawing.paint(polygon);
     }
 
     @FXML
@@ -64,7 +65,8 @@ public class Controller implements Initializable {
         this.javaFXPaintable = new JavaFXPaintable(graphicsContext);
         this.drawing.paintUsing(this.javaFXPaintable);
 
-        this.drawing.paint(new Image(Color.RED, new File("C:\\User\\Carl Kools\\Pictures\\wallpapers\\Computers_Microsoft_Windows_retro_042865_23.jpg"), new Point(70,70), 70,80));
+        this.drawing.paint(new Image(Color.RED, new File("drawing/images/heart.png"), new Point(70,70), 70,80));
+
     }
 
     @FXML
@@ -73,18 +75,17 @@ public class Controller implements Initializable {
         ArrayList<Point> points = new ArrayList<>();
         points.add(new Point(40, 40));
         points.add(new Point(30,30));
-        drawing.addDrawingItem(new Oval(Color.BLACK, 50, new Point(50,50), 50,50));
-        drawing.addDrawingItem(new PaintedText(Color.BLUE, "hallo", "Comic Sans", new Point(50,50), 50, 50));
-        drawing.addDrawingItem(new Polygon(Color.GREEN, points, 30));
-        //drawing.addDrawingItem(new Image(Color.RED, new File("C:\\Users\\Carl Kools\\Pictures\\wallpapers\\Computers_Microsoft_Windows_retro_042865_23"), new Point(70,70), 70,80));
+
+        Drawing newDrawing = new Drawing("New");
+        newDrawing.addDrawingItem(new Oval(Color.BLACK, 50, new Point(50,50), 50,50));
+        newDrawing.addDrawingItem(new PaintedText(Color.BLUE, "hallo", "Comic Sans", new Point(55,55), 50, 50));
+        newDrawing.addDrawingItem(new Polygon(Color.GREEN, points, 30));
 
         drawingRepository.save(drawing);
 
 
-        Drawing drawingLoad = drawingRepository.load("drawing");
-        System.out.println(drawingLoad.toString());
 
-        drawing.addDrawingItem(drawing);
+        drawing.addDrawingItem(newDrawing);
         setItems(drawing.getObservableList());
 
         //test
@@ -94,6 +95,55 @@ public class Controller implements Initializable {
 
         this.drawing.paint();
 
+        for(int i = 0; i < drawing.getItems().size(); i++){
+            int j = i + 1;
+
+            System.out.println(drawing.toString());
+
+            if(j < drawing.getItems().size()){
+                if(drawing.getItems().get(j).overlaps(drawing.getItems().get(i))){
+                 System.out.println("Overlapping occurred: \n" + drawing.getItems().get(i).toString() + "OVERLAPS > \n" + drawing.getItems().get(j).toString());
+                }
+            }
+            else {
+                if(i != 0 && drawing.getItems().get(i).overlaps(drawing.getItems().get(i - 1))){
+                    drawing.getItems().get(i).toString();
+                }
+            }
+
+        }
+
+    }
+    @FXML
+    private void onLoadSer(){
+        DrawingRepository drawingRepository = new DrawingRepository(DrawingFactory.getContext(Context.SerializationMediator));
+        Drawing drawing = drawingRepository.load("drawing.ser");
+
+        GraphicsContext graphicsContext = this.canvas.getGraphicsContext2D();
+        this.javaFXPaintable = new JavaFXPaintable(graphicsContext);
+        drawing.paintUsing(this.javaFXPaintable);
+
+        drawing.paint();
+
+    }
+
+    @FXML
+    private void onLoadDat(){
+        DrawingRepository drawingRepository = new DrawingRepository(DrawingFactory.getContext(Context.DatabaseMediator));
+        Drawing drawing = drawingRepository.load("drawing");
+
+        GraphicsContext graphicsContext = this.canvas.getGraphicsContext2D();
+        this.javaFXPaintable = new JavaFXPaintable(graphicsContext);
+        drawing.paintUsing(this.javaFXPaintable);
+
+
+        drawing.paint();
+    }
+
+    @FXML
+    private void onSaveSer(){
+        DrawingRepository drawingRepository = new DrawingRepository(DrawingFactory.getContext(Context.SerializationMediator));
+        drawingRepository.save(this.drawing);
     }
 
     private void setItems(ObservableList List){

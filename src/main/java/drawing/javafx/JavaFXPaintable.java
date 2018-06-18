@@ -4,8 +4,11 @@ import javafx.scene.Scene;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Paint;
 
-public class JavaFXPaintable implements IPaintable {
-    private GraphicsContext graphicsContext;
+import java.io.File;
+import java.io.Serializable;
+
+public class JavaFXPaintable implements IPaintable, Serializable {
+    private transient GraphicsContext graphicsContext;
 
     public JavaFXPaintable(GraphicsContext graphicsContext){
         this.graphicsContext = graphicsContext;
@@ -18,7 +21,7 @@ public class JavaFXPaintable implements IPaintable {
 
     @Override
     public void paint(Image image) {
-        this.graphicsContext.drawImage(new javafx.scene.image.Image(image.getFile().getPath()), image.getAnchor().getX(), image.getAnchor().getY());
+        this.graphicsContext.drawImage(new javafx.scene.image.Image(new File(image.getFile().getName()).toURI().toString(), true), image.getAnchor().getX(), image.getAnchor().getY());
     }
 
     @Override

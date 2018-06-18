@@ -26,6 +26,7 @@ public class DrawingTool extends javafx.application.Application {
         primaryStage.setScene(new Scene(root));
 
 
+
         primaryStage.show();
 
     }
